@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="pl-pl">
+ 
+ <head>
+  
+  <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+  <meta charset="utf-8">
+  <title>Zeszyt HTML v2.0.0</title>
+  <link rel="stylesheet" href="../../cssy/main.css">
+  <script src="../../skrypty/odliczanie.js"></script>
+  <script defer src="../../skrypty/hihihiha.js"></script>
+
+  <link rel="icon" href="../../obrazki\icon.png" sizes="any" type="image/png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href= "https://fonts.googleapis.com/css2?family=Dosis:wght@400;500;700&family=Ubuntu+Condensed&family=Ubuntu:wght@400;700&display=swap" rel="stylesheet"> 
+  
+
+  
+ </head>
+
+ <body onload="odliczanie();">
+
+  <div id="container">
+  
+    <div id="logo">
+      Zeszyt HTML v2.0.0 :)
+    </div>
+
+    <div id="menu">
+
+      <div class="option">
+	  
+	    <a href="../../index.html" class="up">Strona glowna</a>
+	  
+	  </div>
+      
+	  <div class="option">
+	  
+	    <a href="../jezykiprog.html" class="up">Jezyki programowania</a>
+	  
+	  </div>
+	  
+	  <div class="option">
+	  
+	    <a href="../tematy.html" class="up">Tematy</a>
+	  
+	  </div>
+      
+	  <div class="option">
+	  
+	    <a href="../plan.html" class="up">Plan lekcji</a>
+	  
+	  </div>
+      
+	  
+      
+	  <div style="clear:both"></div>
+
+    </div>
+
+    <div id="topbar">
+     <a href="https://dayspedia.com/time/online/?lang=pl" target="blank">
+	  
+	  <div id="topbarL">
+	 
+	   <img src="../../obrazki/time.png" width="75%">
+	  
+	  </div>
+	 
+      <div id="topbarR"></div>
+     
+	  <div style="clear:both;"></div>
+	  
+     </a>   
+    </div>
+
+    <div id="sidebar" style="height:520px;">
+  
+      <a href="../../index.html" style="text-decoration:none;">
+       <div class="optionL">
+	    Strona glowna
+	   </div>
+	  </a>
+	  
+	 <a href="../jezykiprog.html" style="text-decoration:none;">
+       <div class="optionL">
+	    Jezyki prog
+	   </div>
+	  </a>
+	  
+	   <a href="../tematy.html" style="text-decoration:none;">
+       <div class="optionL">
+	    Tematy
+	   </div>
+	  </a>
+	  
+	  <a href="../plan.html" style="text-decoration:none;">
+       <div class="optionL">
+	    Plan lekcji
+	   </div>
+	  </a>
+	 
+	 
+
+      
+      
+
+    </div>
+
+    <div id="content">
+     <span class="bigtitle">Temat: Flexbox</span>
+	   <div class="dottedline"></div>
+        <b>display: flex;</b> - ustawienie flexboxa na kontenerze <br>
+        W flexboxie mamy <b>dwie osie (kierunki)</b>:
+        <ul>
+            <li><b>głowna</b> </li>
+            <li><b>poboczna</b> </li>
+        </ul>
+        <b>flex-direction:</b> - ustawienie osi głownej
+        <ul>
+            <li><b>row</b> - rząd</li>
+            <li><b>column</b> - kolumna</li>
+            <li><b>column-reverse</b> - odwrocona kolumna</li>
+            <li><b>row-reverse</b> - odwrocona row</li>
+        </ul>
+        <b>justify-content:</b> - ustawienie zawartosci wzgledem osi głownej
+        <ul>
+            <li><b>center</b> - srodek</li>
+            <li><b>flex-start</b> - lewa str</li>
+            <li><b>flex-end</b> - prawa str</li>
+            <li><b>space-around</b> - odstepy do okola wszystkich itemow</li>
+            <li><b>space-between</b> - odstepy pomiedzy itemami</li>
+        </ul>
+        <b>align-items:</b> - ustawienie zawartosci wzgledem osi pobocznej
+        <ul>
+            <li><b>center</b> - srodek</li>
+            <li><b>stretch</b> - rosciagniecie itemow</li>
+            <li><b>baseline</b> - rosciagniecie itemow wzgledem lini dolnej</li>
+            <li><b>flex-start</b> - lewa str</li>
+            <li><b>flex-end</b> - prawa str</li>
+        </ul>
+        <b>align-self:</b> - ustawienie jednego itemka wzgledem osi pobocznej(dziala jak align-items)
+        
+        <b>order: (liczba)</b> - kolejnosc itemka<br>
+
+        <b>flex-grow: (liczba)</b> - wypelnianie wolnej przestrzeni <br>
+        
+        <b>flex-wrap:</b> - zawijanie itemkow
+
+        <ul>
+        <li><b>nowrap</b> - zawijaj</li>
+        <li><b>nowrap</b> - niezawijaj</li>
+        </ul>
+        
+    </div>
+	
+    <div id="footer">
+        stopka taka fajna wariacie&nbsp; &copy; Alex Kaminski
+    </div>
+    
+  </div>
+
+
+ </body>
+
+
+
+</html>

@@ -1,0 +1,206 @@
+body
+{
+    background-color:#404040;
+    font-family: 'Ubuntu', sans-serif;
+	background-image:url("../obrazki/background.png");
+	background-size:cover;
+}
+
+#container
+{
+ width:1150px;
+ margin-left:auto;
+ margin-right:auto;
+}
+
+#logo
+{
+ color:white;
+ margin-top:15px;
+ padding:20px;
+ font-size:50px;
+ letter-spacing:2px;
+ font-weight:700;
+ background-color:#404040;
+}
+
+#menu
+{
+ background-color:#303030;
+ padding:10px;
+ margin-top:20px;
+ color:white;
+ opacity:0.9;
+}
+
+.option
+{
+ height:25px;
+ font-size:18px;
+ padding:10px;
+ float:left;
+ min-width:50px;
+ border-right:2px dotted #444444;
+}
+
+.up
+{
+ height:25px;
+ font-size:18px;
+ padding:10px;
+ float:left;
+ min-width:50px;
+ color:white;
+ text-align:center;
+ text-decoration:none;
+ transform: translateY(-10px);
+}
+.option:hover
+{
+    background-color:black;
+    cursor:pointer;
+}
+
+#topbar
+{
+ background-color:#128870;
+ color:white;
+ padding:5px;
+ margin-top:20px;
+ margin-bottom:20px;
+ height:150px;
+ font-size:50px;
+ text-align:center;
+ cursor:pointer;
+}
+
+#topbarL
+{
+	float:left;
+	padding:20px;
+	width:138px;
+	text-align:center;
+	border-right:2px dashed #cccccc;
+}
+
+#topbarR
+{
+	float:left;
+	padding:20px;	
+	width:760px;	
+	font-size:55px;
+	text-align:justify;
+	font-family: 'Dosis', sans-serif;
+	font-weight:500;
+	color:white;
+	
+}
+
+
+#sidebar
+{
+ float:left;
+ width:140px;
+ padding:20px;
+ background-color:lightgray;
+ text-align:center;
+ font-size:18px;
+ border-right:2px dotted #666666;
+}
+
+.optionL
+{
+ height:25px;
+ padding:20px;
+ border-bottom:2px dashed #444444;
+ text-align:center;
+ color:black;
+ text-decoration:none;
+}
+
+
+.optionL:hover
+{
+ background-color:#f36742;
+ cursor:pointer;
+ color:white;
+ border-bottom:2px dashed white;
+}
+
+#content
+{
+    float:left;
+    padding:10px;
+    min-height:540px;
+    width:946px;
+    background-color:#dedede;
+    text-align:left;
+	margin-bottom:20px;
+}
+
+.bigtitle
+{
+	font-size:40px;
+	font-weight:700;
+	letter-spacing:2px;
+	font-family: 'Ubuntu', sans-serif;
+	
+}
+
+.dottedline
+{
+	height:5px;
+	margin-top:15px;
+	margin-bottom:20px;
+	border-bottom:2px dashed #444444;
+}
+.line
+{
+	height:5px;
+	margin-top:15px;
+	margin-bottom:20px;
+	border-bottom:1px solid #444444;
+}
+
+#footer
+{
+    clear:both;
+    background-color:black;
+    color:white;
+    padding:10px;
+    text-align:center;
+    width:1128px;
+	height:30px;
+}
+
+th
+{
+	padding:10px;	
+}
+
+td
+{
+	padding:5px;
+}
+table
+{
+	border:2px solid black;
+    text-align:center;
+}
+
+.lekcja
+{
+	text-decoration:none;
+	height:20px;
+    padding:5px;
+    text-align:center;
+    color:black;
+    text-decoration:none;
+	font-size:20px;
+}
+.lekcja:hover
+{
+	color:white;
+	background-color:gray;
+}
+

@@ -1,0 +1,36 @@
+#normal
+{
+	background-color:red;
+	color:white;
+	text-align:left;
+}
+#padding
+{
+	padding:10px;
+	background-color:green;	
+	color:white;
+	text-align:left;
+}
+#margin
+{
+	margin:10px;
+	background-color:blue;
+	color:white;
+	text-align:left;
+}
+#border
+{
+	border:3px dotted violet;
+	background-color:lightblue;
+	color:white;
+	text-align:left;
+}
+#all
+{
+	border:3px dotted darkblue;
+	background-color:green;
+	color:white;
+	text-align:left;
+	margin:10px;
+	padding:10px;
+}

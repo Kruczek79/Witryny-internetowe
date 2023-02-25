@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="pl-pl">
+ 
+ <head>
+  
+  <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+  <meta charset="utf-8">
+  <title>Zeszyt HTML v2.0.0</title>
+  <link rel="stylesheet" href="../../cssy/main.css">
+  <script defer src="../../skrypty/odliczanie.js"></script>
+  <link rel="icon" href="../../obrazki\icon.png" sizes="any" type="image/png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href= "https://fonts.googleapis.com/css2?family=Dosis:wght@400;500;700&family=Ubuntu+Condensed&family=Ubuntu:wght@400;700&display=swap" rel="stylesheet"> 
+  
+ </head>
+
+ <body onload="odliczanie();">
+ 
+  <div id="container">
+  
+    <div id="logo">
+      Zeszyt HTML v2.0.0 :)
+    </div>
+
+    <div id="menu">
+
+      <div class="option">
+	  
+	    <a href="../../index.html" class="up">Strona glowna</a>
+	  
+	  </div>
+      
+	  <div class="option">
+	  
+	    <a href="../jezykiprog.html" class="up">Jezyki programowania</a>
+	  
+	  </div>
+	  
+	  <div class="option">
+	  
+	    <a href="../tematy.html" class="up">Tematy</a>
+	  
+	  </div>
+      
+	  <div class="option">
+	  
+	    <a href="../plan.html" class="up">Plan lekcji</a>
+	  
+	  </div>
+      
+	  
+      
+	  <div style="clear:both"></div>
+
+    </div>
+
+    <div id="topbar">
+     <a href="https://dayspedia.com/time/online/?lang=pl" target="blank">
+	  
+	  <div id="topbarL">
+	 
+	   <img src="../../obrazki/time.png" width="75%">
+	  
+	  </div>
+	 
+      <div id="topbarR"></div>
+     
+	  <div style="clear:both;"></div>
+	  
+     </a>   
+    </div>
+
+    <div id="sidebar" style="height:520px;">
+  
+      <a href="../../index.html" style="text-decoration:none;">
+       <div class="optionL">
+	    Strona glowna
+	   </div>
+	  </a>
+	  
+	 <a href="../jezykiprog.html" style="text-decoration:none;">
+       <div class="optionL">
+	    Jezyki prog
+	   </div>
+	  </a>
+	  
+	   <a href="../tematy.html" style="text-decoration:none;">
+       <div class="optionL">
+	    Tematy
+	   </div>
+	  </a>
+	  
+	  <a href="../plan.html" style="text-decoration:none;">
+       <div class="optionL">
+	    Plan lekcji
+	   </div>
+	  </a>
+	 
+	 
+
+      
+      
+
+    </div>
+
+    <div id="content">
+     <span class="bigtitle">Temat: Validacja danych w formularzu v2</span>
+	   <div class="dottedline"></div> 
+      <span style="font-size:20px;">Uczen:</span>
+      <div class="line"></div> 
+      
+      <form>
+
+        <label for="names" style="font-size:20px;">Imie i nazwisko:</label>
+        <input type="text" id="names" style="font-size:20px;margin-bottom:5px"placeholder="text text"  autocomplete="off">* <br>
+
+        <label for="email" style="font-size:20px;">Email:</label>
+        <input type="email" id="email" style="font-size:20px;margin-bottom:5px;margin-left:86px;" placeholder="text@text.text" autocomplete="off">* <br>
+
+        <label for="ocena" style="font-size:20px;">Ocena:</label>
+        <input type="number" id="ocena" style="font-size:20px;width:70px;margin-bottom:5px;margin-left:76px;" autocomplete="off" >* <br>
+
+        <label for="data" style="font-size:20px;">Data:</label>
+        <input type="datetime-local" id="data" style="font-size:20px;margin-left:93px" autocomplete="off">* <br>
+        
+        <input type="submit" value="wyslij"id="submit" style="font-size:20px;border-radius:5px;border:1px solid black;"id="submit">
+        <input type="reset" id="reset" style="font-size:20px;border-radius:5px;border:1px solid black;"id="submit">
+      </form>
+      <div class="line"></div> 
+      <span style="font-size:20px;">Uwaga!<br>Pola oznaczone * są obowiazkowe!</span>
+    </div>
+    
+    <div id="footer">
+        stopka taka fajna wariacie&nbsp; &copy; Alex Kaminski
+    </div>
+    
+  </div>
+
+  <script src="../../skrypty/validate.js"></script>
+ </body>
+
+
+
+</html>

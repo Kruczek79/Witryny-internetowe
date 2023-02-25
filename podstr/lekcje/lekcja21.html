@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="pl-pl">
+ 
+ <head>
+  
+  <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+  <meta charset="utf-8">
+  <title>Zeszyt HTML v2.0.0</title>
+  <link rel="stylesheet" href="../../cssy/main.css">
+  <link rel="stylesheet" href="../../cssy/forms.css">
+ <script src="../../skrypty/odliczanie.js"></script>
+  <script src="../../skrypty/testuwu.js"></script>
+  <link rel="icon" href="../../obrazki\icon.png" sizes="any" type="image/png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href= "https://fonts.googleapis.com/css2?family=Dosis:wght@400;500;700&family=Ubuntu+Condensed&family=Ubuntu:wght@400;700&display=swap" rel="stylesheet">
+  
+
+  
+ </head>
+
+ <body onload="odliczanie();">
+
+  <div id="container">
+  
+    <div id="logo">
+      Zeszyt HTML v2.0.0 :)
+    </div>
+
+    <div id="menu">
+
+      <div class="option">
+	  
+	    <a href="../../index.html" class="up">Strona glowna</a>
+	  
+	  </div>
+      
+	  <div class="option">
+	  
+	    <a href="../jezykiprog.html" class="up">Jezyki programowania</a>
+	  
+	  </div>
+	  
+	  <div class="option">
+	  
+	    <a href="../tematy.html" class="up">Tematy</a>
+	  
+	  </div>
+      
+	  <div class="option">
+	  
+	    <a href="../plan.html" class="up">Plan lekcji</a>
+	  
+	  </div>
+      
+	  
+      
+	  <div style="clear:both"></div>
+
+    </div>
+
+    <div id="topbar">
+     <a href="https://dayspedia.com/time/online/?lang=pl" target="blank">
+	  
+	  <div id="topbarL">
+	 
+	   <img src="../../obrazki/time.png" width="75%">
+	  
+	  </div>
+	 
+      <div id="topbarR"></div>
+     
+	  <div style="clear:both;"></div>
+	  
+     </a>   
+    </div>
+
+    <div id="sidebar" style="height:520px;">
+  
+      <a href="../../index.html" style="text-decoration:none;">
+       <div class="optionL">
+	    Strona glowna
+	   </div>
+	  </a>
+	  
+	 <a href="../jezykiprog.html" style="text-decoration:none;">
+       <div class="optionL">
+	    Jezyki prog
+	   </div>
+	  </a>
+	  
+	   <a href="../tematy.html" style="text-decoration:none;">
+       <div class="optionL">
+	    Tematy
+	   </div>
+	  </a>
+	  
+	  <a href="../plan.html" style="text-decoration:none;">
+       <div class="optionL">
+	    Plan lekcji
+	   </div>
+	  </a>
+	 
+	 
+
+      
+      
+
+    </div>
+
+    <div id="content">
+     <span class="bigtitle">Temat: Formularze Ankieta</span>
+	  <div class="dottedline"></div>
+     
+	 
+	 <form onsubmit="check()" name="testuwu" method="post">
+	 
+	  <label for="sernik" style="margin-left:5px;">sernik:</label><br><br>
+	  <input type="radio" name="sernik" value="zle">a) z rodzynkami</input>
+	  <input type="radio" name="sernik" value="ok">b) bez rodzynek</input>
+
+      <br><br>
+	  <label for="baby" style="margin-left:5px;">kobiety:</label><br><br>
+	  <input type="radio" name="kobjety" value="ok">a) anime uwu dziewczynki z duzymy sercami</input>
+	  <input type="radio" name="kobjety" value="zle">b) prawdziwe laski (np deski)</input>
+   
+      <br><br>
+	  <label for="furas" style="margin-left:5px;">furasy:</label><br><br>
+	  <input type="radio" name="furas" value="zle">a) szanujemy</input>
+	  <input type="radio" name="furas" value="zle">b) hejte hejte kogo my tu mamy</input>
+	  <input type="radio" name="furas" value="ok">c) hejte (poza remusem i huncwoci)</input>
+
+      <br><br>
+	  <label for="papaj" style="margin-left:5px;">godzina papierzowa:</label><br><br>
+	  <input type="radio" name="papaj" value="ok">a) 21:37</input>
+	  <input type="radio" name="papaj" value="zle">b) 69:69</input>
+
+
+
+	  
+	  
+	  <br><div class="dottedline"></div>
+	 
+	  <input type="submit" value="pokaz odp">
+	 
+	  <input type="reset" value="resetuj ankiete">
+	 
+	 </form>  
+	 
+	 
+	 
+	
+
+     
+    </div>
+	
+    <div id="footer">
+        stopka taka fajna wariacie&nbsp; &copy; Alex Kaminski
+    </div>
+    
+  </div>
+
+
+ </body>
+
+
+
+</html>

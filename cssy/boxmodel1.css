@@ -1,0 +1,7 @@
+#border
+{
+ border:25px solid transparent;
+ border-image:url(../obrazki/boxmodel.png) 90 round;
+ padding:10px;
+ border-width:100px;
+}

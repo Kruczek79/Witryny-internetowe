@@ -1,0 +1,145 @@
+body
+{
+ background-image:url(obrazki/background.png);
+ background-repeat:no-repeat;
+ background-size:cover;
+ color:white;
+ 
+}
+
+#container
+{
+ width:1500px;
+ color:white;
+ margin-left:auto;
+ margin-right:auto;
+}
+
+#logo
+{
+    
+    color:white;
+    background-image:url(obrazki/pumpkin.png);
+    background-repeat:no-repeat;
+    background-size:cover;
+    width:1200px;
+    margin-top:15px;
+    padding:20px;
+    font-size:100px;
+    letter-spacing:2px;
+    font-weight:700;
+    background-color:#404040;
+    text-align:center;
+    margin-left:auto;
+    margin-right:auto;
+    font-family: 'Creepster';
+}
+
+    
+#menu
+{
+ background-color:#f9cd62;
+ padding:10px;
+ margin-top:20px;
+ color:white;
+ opacity:0.9;
+ width:1200px;
+ margin-left:auto;
+ margin-right:auto;
+ text-align:center;
+ font-family: 'Creepster';
+}
+
+.option
+{
+ height:25px;
+ font-size:18px;
+ padding:10px;
+ float:left;
+ min-width:50px;
+ border-right:2px dotted #444444;
+ text-align:center;
+ color:white;
+ text-decoration:none;
+ margin-left:auto;
+ margin-right:auto;
+}
+
+.option:hover
+{
+    background-color:#9e823c;
+    cursor:pointer;
+}
+
+
+#navL
+{
+ float:left;
+ width:140px;
+ min-height:520px;
+ padding:20px;
+ text-align:center;
+ font-size:18px;
+ border-right:2px dotted #666666;
+ background-color:#9e7664;
+ margin-left:140px;
+ background-image:url(obrazki/ghost.png);
+ background-repeat:no-repeat;
+ background-size:cover;
+ font-family: 'Creepster';
+}
+
+.optionL
+{
+ font-size:18px;
+ height:25px;
+ padding:20px;
+ border-bottom:2px dashed #444444;
+ text-align:center;
+ background-color:#a78eb8;	
+ color:white;
+ text-decoration:none;
+ width:100px;
+}
+
+.optionL:hover
+{
+ background-color:#6d5380;
+ cursor:pointer;
+ color:white;
+ border-bottom:2px dashed white;
+}
+a
+{
+	text-decoration:none;
+}
+
+#content
+{
+    text-align:justify;
+    font-size:20px;
+    color:white;
+    float:left;
+    margin-bottom:20px;
+    width:1018px;
+	padding:10px;
+	min-height:540px;
+    background-color:#2e2e2e;	
+	font-family: 'Ubuntu', sans-serif;
+}
+
+#footer
+{
+    clear:both;
+    color:white;
+    text-align:center;
+    background-color:#1c1c1c;
+    height:20px;
+    padding:20px;
+    font-size:18px;
+    width:1189px;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:20px;
+	font-family: 'Ubuntu', sans-serif;
+}

@@ -1,0 +1,19 @@
+input[type=text]
+{
+    padding:10px;
+    font-size:25px;
+}
+input[type=submit]
+{
+    padding:10px;
+    font-size:25px;
+}
+input[type=reset]
+{
+    padding:10px;
+    font-size:25px;
+}
+#tree
+{
+    font-size:30px;
+}
